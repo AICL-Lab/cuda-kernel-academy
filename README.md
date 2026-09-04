@@ -49,8 +49,8 @@ Most CUDA learning material is either too small to feel like engineering or too 
 
 ## Repository status
 
-Teaching repository, status **active** (correctness fixes and teaching
-refinements; no new modules). The four modules are complete. On the
+Teaching repository, status **stable** (correctness fixes and teaching
+refinements only; no new modules). The four modules are complete. On the
 2026-08-23 test machine (RTX 3060 Laptop, sm_86, CUDA 12.0),
 `ctest --preset default` reported **261/261 passed**. No new modules
 will be added here. Follow-up
@@ -137,7 +137,6 @@ make test
 - [Troubleshooting](docs/en/reference/troubleshooting.md)
 - [Changelog](CHANGELOG.md)
 - [中文文档首页](docs/zh/index.md)
-- [Follow-up development plan (executable by coding agents)](DEV_PLAN.md)
 - [Contributing](CONTRIBUTING.md)
 - 📖 [技术文档站](https://open-infra-ai.github.io/cuda-foundations/) 由 VitePress 驱动，支持 NVIDIA 风格深色主题、交互式图表和学术论文引用。
 

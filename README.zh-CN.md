@@ -49,7 +49,7 @@
 
 ## 仓库状态
 
-教学仓库，状态 **active**（正确性修复与教学打磨；不再新增模块）。四个模块已完成。2026-08-23 在 RTX 3060 Laptop（sm_86、CUDA 12.0）上运行 `ctest --preset default`，结果为 **261/261 通过**。不再新增模块；后续精力投入 [LEARNING_PATH.md](https://github.com/open-infra-ai/open-infra-ai/blob/master/LEARNING_PATH.md) 中记录的后续项目（如 `tiny-llm` 与 `paged-serving`）。
+教学仓库，状态 **stable**（只做正确性修复与教学打磨，不再新增模块）。四个模块已完成。2026-08-23 在 RTX 3060 Laptop（sm_86、CUDA 12.0）上运行 `ctest --preset default`，结果为 **261/261 通过**。后续精力投入 [LEARNING_PATH.md](https://github.com/open-infra-ai/open-infra-ai/blob/master/LEARNING_PATH.md) 中记录的后续项目（如 `tiny-llm` 与 `paged-serving`）。
 
 ## 仓库收敛边界
 
@@ -125,7 +125,6 @@ make test
 ## 文档入口
 
 - [文档总览](docs/zh/index.md)
-- [后续开发计划（供执行模型使用）](DEV_PLAN.md)
 - [快速开始](docs/zh/guides/getting-started.md)
 - [开发流程](docs/zh/guides/workflow.md)
 - [编码风格](docs/zh/reference/coding-style.md)
