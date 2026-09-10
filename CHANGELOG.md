@@ -13,6 +13,7 @@ The repository keeps a lightweight changelog focused on release-level milestones
 - Create the SGEMM test's cuBLAS verifier only after confirming a CUDA device exists, allowing CPU-only environments to skip GPU cases cleanly instead of exiting during fixture construction.
 - Update ECharts, Mermaid, and compatible transitive dependencies to patched releases; the remaining audit findings are confined to the VitePress 1.x toolchain, which has no stable compatible fix yet.
 - Document how to diagnose and temporarily bypass a Linux `libcuda.so.1` shadowing the Windows-projected CUDA driver in WSL.
+- `scripts/run_benchmarks.sh` pins the working directory of every step, so `roofline_data_*.csv` lands in `01-sgemm-tutorial/` instead of whichever directory the script was invoked from.
 
 ### Changed
 - README 标题与仓名对齐为 `cuda-foundations`（教学品牌仍为 CUDA Kernel Academy）

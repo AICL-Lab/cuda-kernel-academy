@@ -6,7 +6,10 @@
 #   1. 01-sgemm-tutorial standalone benchmark (all standard sizes)
 #   2. 02-tensorcraft-core gemm benchmark (Google Benchmark)
 #
-# Output is meant to be copied straight into docs/en/benchmarks/.
+# The 01 benchmark writes roofline_data_<size>.csv next to the module; the
+# distilled numbers are meant to be copied into docs/en/benchmarks/.
+# Every step below pins its own working directory, so results land in the same
+# place no matter where this script is invoked from.
 # LD_PRELOAD is only needed on WSL2; it is set automatically when detected.
 
 set -euo pipefail
@@ -26,13 +29,15 @@ echo "== CUDA info =="
 nvcc --version | tail -2
 echo
 echo "== Build =="
-cmake --preset default
-cmake --build --preset default -j
+(cd "${REPO_ROOT}" && cmake --preset default)
+(cd "${REPO_ROOT}" && cmake --build --preset default -j)
 echo
 echo "== 01 benchmark =="
+# The benchmark writes roofline_data_<size>.csv to its cwd, so run it from the
+# module directory rather than from wherever this script was called.
 (cd "${REPO_ROOT}/01-sgemm-tutorial" && make benchmark)
-"${REPO_ROOT}/01-sgemm-tutorial/build/sgemm_benchmark" -a
+(cd "${REPO_ROOT}/01-sgemm-tutorial" && ./build/sgemm_benchmark -a)
 echo
 echo "== 02 gemm benchmark =="
-"${REPO_ROOT}/build/default/bin/gemm_benchmark" \
-    --benchmark_min_time=0.1s --benchmark_repetitions=3
+(cd "${REPO_ROOT}" && ./build/default/bin/gemm_benchmark \
+    --benchmark_min_time=0.1s --benchmark_repetitions=3)
