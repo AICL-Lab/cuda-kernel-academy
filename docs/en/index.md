@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "CUDA Kernel Academy"
+  name: "cuda-foundations"
   text: "Systematic CUDA kernel engineering"
   tagline: "A repository-specific reading map from SGEMM fundamentals to reusable inference components."
   actions:

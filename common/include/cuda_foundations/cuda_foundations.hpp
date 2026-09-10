@@ -1,7 +1,7 @@
 #pragma once
 /**
  * @file cuda_foundations.hpp
- * @brief Main header for CUDA Kernel Academy common utilities
+ * @brief Main header for cuda-foundations common utilities
  *
  * Include this header to get access to all common utilities:
  * - Error checking macros (CA_CUDA_CHECK, etc.)

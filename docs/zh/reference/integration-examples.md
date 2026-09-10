@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 集成示例
 
-本文档展示如何在你的项目中集成和使用 CUDA Kernel Academy 的各个模块。
+本文档展示如何在你的项目中集成和使用 cuda-foundations 的各个模块。
 
 ## 使用 tensorcraft-core 算子库
 

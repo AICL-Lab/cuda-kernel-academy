@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# One-shot benchmark collection for the CUDA Kernel Academy repo.
+# One-shot benchmark collection for the cuda-foundations repo.
 #
 # Runs:
 #   1. 01-sgemm-tutorial standalone benchmark (all standard sizes)

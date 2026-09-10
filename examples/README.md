@@ -1,4 +1,4 @@
-# CUDA Kernel Academy Examples
+# cuda-foundations Examples
 
 This directory contains small standalone examples built from the root CMake project.
 

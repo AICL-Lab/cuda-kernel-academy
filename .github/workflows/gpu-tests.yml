@@ -1,4 +1,4 @@
-# GPU test suite for CUDA Kernel Academy.
+# GPU test suite for cuda-foundations.
 #
 # Runs the full `ctest --preset default` on a machine with a real NVIDIA GPU.
 # GitHub-hosted runners do not expose GPUs, so this workflow requires a

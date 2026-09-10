@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Report a bug in CUDA Kernel Academy
+description: Report a bug in cuda-foundations
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees: []

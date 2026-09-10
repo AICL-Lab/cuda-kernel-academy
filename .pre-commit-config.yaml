@@ -1,4 +1,4 @@
-# CUDA Kernel Academy - Pre-commit hooks configuration
+# cuda-foundations - Pre-commit hooks configuration
 # https://pre-commit.com/
 #
 # Install: pip install pre-commit && pre-commit install

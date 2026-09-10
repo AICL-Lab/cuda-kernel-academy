@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "CUDA Kernel Academy"
+  name: "cuda-foundations"
   text: "Systematic CUDA kernel engineering"
   tagline: "从 SGEMM 基础到可复用推理组件的仓库级学习地图，而不只是项目简介。"
   actions:

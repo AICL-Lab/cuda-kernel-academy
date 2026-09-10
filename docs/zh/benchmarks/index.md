@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 性能基准测试
 
-这个页面解释 CUDA Kernel Academy 里的 benchmark 证据究竟想说明什么，以及它不能说明什么。
+这个页面解释 cuda-foundations 里的 benchmark 证据究竟想说明什么，以及它不能说明什么。
 
 - **对 kernel 读者**：它帮助你把优化步骤和测量增益对应起来。
 - **对库设计与系统读者**：它帮助你分辨哪些结论只是局部 kernel 提升，哪些是端到端集成信号。

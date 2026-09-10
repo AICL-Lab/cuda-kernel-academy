@@ -1,5 +1,5 @@
 # =============================================================================
-# CUDA Foundations - Root CMakeLists.txt
+# cuda-foundations - Root CMakeLists.txt
 # =============================================================================
 # A comprehensive learning project for high-performance CUDA kernel development
 # =============================================================================
@@ -234,7 +234,7 @@ write_basic_package_version_file(
 # =============================================================================
 
 message(STATUS "")
-message(STATUS "=== CUDA Kernel Academy Configuration ===")
+message(STATUS "=== cuda-foundations Configuration ===")
 message(STATUS "Version:              ${PROJECT_VERSION}")
 message(STATUS "Build type:           ${CMAKE_BUILD_TYPE}")
 message(STATUS "CUDA architectures:   ${CMAKE_CUDA_ARCHITECTURES}")

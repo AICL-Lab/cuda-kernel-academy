@@ -1,6 +1,6 @@
 # Security Policy
 
-CUDA Kernel Academy is an educational CUDA repository, but security issues still matter, especially in build scripts, dependency handling, and example code that may be reused elsewhere.
+cuda-foundations is an educational CUDA repository, but security issues still matter, especially in build scripts, dependency handling, and example code that may be reused elsewhere.
 
 ## Supported versions
 

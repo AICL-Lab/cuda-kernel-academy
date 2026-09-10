@@ -1,7 +1,6 @@
 # cuda-foundations
 
 > GitHub 仓库名：[`cuda-foundations`](https://github.com/open-infra-ai/cuda-foundations)
-> 教学品牌名：CUDA Kernel Academy
 >
 > 📚 作品集地图：<https://github.com/open-infra-ai/open-infra-ai>
 
@@ -40,7 +39,7 @@
 
 ## 这个项目解决什么问题
 
-很多 CUDA 教程要么过于碎片化，要么大到难以整体理解。CUDA Kernel Academy 的定位是：
+很多 CUDA 教程要么过于碎片化，要么大到难以整体理解。cuda-foundations 的定位是：
 
 - **模块 01**：直接围绕 SGEMM 学优化路径
 - **模块 02**：把这些思路整理成可复用算子库形态
@@ -53,7 +52,7 @@
 
 ## 仓库收敛边界
 
-CUDA Kernel Academy 是 `sgemm-optimization`、`modern-ai-kernels`、`hpc-ai-optimization-lab` 和 `mini-inference-engine` 四条重叠学习路径的唯一维护入口。仍有价值的实现和验证已经进入对应 Academy 模块，重复仓库直接退场，不再保留平行维护入口。
+cuda-foundations 是 `sgemm-optimization`、`modern-ai-kernels`、`hpc-ai-optimization-lab` 和 `mini-inference-engine` 四条重叠学习路径的唯一维护入口。仍有价值的实现和验证已经进入对应模块，重复仓库直接退场，不再保留平行维护入口。
 
 原 `llm-speed` 的 GEMM 学习路径由本仓库覆盖，仍维护的深度 FlashAttention 实现位于 [`cuflash`](https://github.com/open-infra-ai/cuflash)。本仓库不会搬入每一种历史实现，只为每个教学角色保留一条清晰路径。
 
@@ -153,8 +152,8 @@ make test
 
 ```text
 @misc{cuda-foundations,
-  author = {CUDA Kernel Academy Contributors},
-  title = {CUDA Kernel Academy},
+  author = {cuda-foundations Contributors},
+  title = {cuda-foundations},
   year = {2026},
   publisher = {GitHub},
   url = {https://github.com/open-infra-ai/cuda-foundations}

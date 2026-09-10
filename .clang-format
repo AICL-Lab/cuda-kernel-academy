@@ -1,4 +1,4 @@
-# CUDA Kernel Academy Code Style
+# cuda-foundations Code Style
 # Based on Google style with modifications for CUDA development
 
 BasedOnStyle: Google

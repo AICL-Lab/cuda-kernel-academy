@@ -1,4 +1,4 @@
-# CUDA Kernel Academy - clang-tidy configuration
+# cuda-foundations - clang-tidy configuration
 # https://clang.llvm.org/extra/clang-tidy/
 
 Checks: >

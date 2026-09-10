@@ -14,7 +14,7 @@ outline: [2, 3]
 
 <SystemArchitectureDiagram />
 
-CUDA Kernel Academy 刻意处在两个极端之间：
+cuda-foundations 刻意处在两个极端之间：
 
 - **比“CUDA 代码片段集合”更有结构**：每个模块都有明确的教学职责，也都服务于更大的系统故事。
 - **比重量级生产框架更轻**：抽象层数被控制在可读范围内，让优化思路和代码之间的联系不被隐藏。

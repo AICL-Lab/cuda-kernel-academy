@@ -23,7 +23,7 @@ Use this roadmap to choose a learning track, not just to see a chronological lis
 
 ```mermaid
 journey
-    title CUDA Kernel Academy Learning Path
+    title cuda-foundations Learning Path
     section Stage 1: Fundamentals
       SGEMM Basics: 5: Naive GEMM
       Shared Memory: 5: Tiling and Bank Conflict

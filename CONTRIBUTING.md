@@ -1,4 +1,4 @@
-# Contributing to CUDA Kernel Academy
+# Contributing to cuda-foundations
 
 Thanks for helping improve the repository.
 

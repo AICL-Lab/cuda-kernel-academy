@@ -7,7 +7,7 @@ const docsEditPattern = `${repoUrl}/edit/master/docs/:path`
 
 export default withMermaid(defineConfig({
   base: '/cuda-foundations/',
-  title: 'CUDA Kernel Academy',
+  title: 'cuda-foundations',
   description: 'Systematic CUDA kernel engineering from SGEMM to inference',
 
   lang: 'zh-CN',
@@ -30,14 +30,14 @@ export default withMermaid(defineConfig({
     ['meta', { name: 'keywords', content: 'CUDA, kernel, SGEMM, GEMM, Tensor Core, FlashAttention, inference engine, GPU programming' }],
     ['meta', { name: 'author', content: 'LessUp' }],
     ['meta', { name: 'theme-color', content: '#76B900' }],
-    ['meta', { property: 'og:title', content: 'CUDA Kernel Academy' }],
+    ['meta', { property: 'og:title', content: 'cuda-foundations' }],
     ['meta', { property: 'og:description', content: 'Systematic CUDA kernel engineering from SGEMM fundamentals to reusable inference components' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: pagesUrl }],
-    ['meta', { property: 'og:site_name', content: 'CUDA Kernel Academy' }],
+    ['meta', { property: 'og:site_name', content: 'cuda-foundations' }],
     ['meta', { property: 'og:image', content: `${pagesUrl}og-image.svg` }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'CUDA Kernel Academy' }],
+    ['meta', { name: 'twitter:title', content: 'cuda-foundations' }],
     ['meta', { name: 'twitter:description', content: 'Systematic CUDA kernel engineering from SGEMM fundamentals to reusable inference components' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'canonical', href: pagesUrl }],
@@ -198,7 +198,7 @@ export default withMermaid(defineConfig({
     skipToContentLabel: '跳转到内容',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2026 CUDA Kernel Academy Contributors'
+      copyright: 'Copyright © 2026 cuda-foundations Contributors'
     }
   },
 
@@ -352,7 +352,7 @@ export default withMermaid(defineConfig({
         skipToContentLabel: 'Skip to content',
         footer: {
           message: 'Released under the MIT License.',
-          copyright: 'Copyright © 2026 CUDA Kernel Academy Contributors'
+          copyright: 'Copyright © 2026 cuda-foundations Contributors'
         }
       }
     }

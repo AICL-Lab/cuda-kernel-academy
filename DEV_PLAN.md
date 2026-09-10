@@ -1,4 +1,4 @@
-# CUDA Kernel Academy 后续开发计划（供低成本模型执行版）
+# cuda-foundations 后续开发计划（供低成本模型执行版）
 
 > 版本：2026-08-17
 > 前置状态：P0 正确性修复已合并到工作区；`ctest --preset default` 在 sm_86 上 192/192 通过；

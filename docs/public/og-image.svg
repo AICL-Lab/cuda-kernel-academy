@@ -40,7 +40,7 @@
   </g>
 
   <!-- Title -->
-  <text x="300" y="260" font-family="Inter, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#brand-gradient)">CUDA Kernel Academy</text>
+  <text x="300" y="260" font-family="Inter, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#brand-gradient)">cuda-foundations</text>
 
   <!-- Tagline -->
   <text x="300" y="320" font-family="Inter, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="28" fill="#8b949e">Systematic CUDA kernel engineering from SGEMM to inference</text>

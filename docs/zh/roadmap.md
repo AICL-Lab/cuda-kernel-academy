@@ -23,7 +23,7 @@ outline: [2, 3]
 
 ```mermaid
 journey
-    title CUDA Kernel Academy 学习路径
+    title cuda-foundations 学习路径
     section 第一阶段：基础
       SGEMM Basics: 5: Naive GEMM
       Shared Memory: 5: Tiling and Bank Conflict

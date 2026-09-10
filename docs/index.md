@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "CUDA Kernel Academy"
+  name: "cuda-foundations"
   text: "Choose your language, then choose your reading path"
   tagline: "Stable bilingual entrypoint for SGEMM, reusable kernels, advanced CUDA topics, and inference integration."
   actions:

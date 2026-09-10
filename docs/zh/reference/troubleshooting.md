@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 故障排除指南
 
-本文档收集 CUDA Kernel Academy 项目的常见问题及解决方案。
+本文档收集 cuda-foundations 项目的常见问题及解决方案。
 
 ## 编译错误
 

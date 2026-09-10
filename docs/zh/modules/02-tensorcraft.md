@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 02-TensorCraft Core
 
-TensorCraft Core 是 CUDA Kernel Academy 的教学算子库。采用 Header-Only 设计便于阅读和实验，但**不是生产级实现**：边界处理、算子覆盖和性能都按学习目标做了裁剪。
+TensorCraft Core 是 cuda-foundations 的教学算子库。采用 Header-Only 设计便于阅读和实验，但**不是生产级实现**：边界处理、算子覆盖和性能都按学习目标做了裁剪。
 
 ## 模块定位
 

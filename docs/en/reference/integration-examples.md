@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # Integration Examples
 
-How to integrate CUDA Kernel Academy modules into your project.
+How to integrate cuda-foundations modules into your project.
 
 ## Using TensorCraft Core
 

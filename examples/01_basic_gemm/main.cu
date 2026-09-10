@@ -216,7 +216,7 @@ void launch_tiled(const float* A, const float* B, float* C,
 // 主函数 | Main Function
 // ============================================================================
 int main() {
-    printf("=== CUDA Kernel Academy: Basic GEMM Example ===\n\n");
+    printf("=== cuda-foundations: Basic GEMM Example ===\n\n");
 
     // 矩阵维度 | Matrix dimensions
     const int M = 1024;

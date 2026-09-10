@@ -278,7 +278,7 @@ void tensor_sigmoid(const Tensor& A, Tensor& B) {
 // 主函数 | Main Function
 // ============================================================================
 int main() {
-    printf("=== CUDA Kernel Academy: Tensor Operations Example ===\n\n");
+    printf("=== cuda-foundations: Tensor Operations Example ===\n\n");
 
     // 设置随机种子 | Set random seed
     srand(42);

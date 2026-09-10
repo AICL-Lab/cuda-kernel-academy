@@ -14,7 +14,7 @@ This page is for readers who already know the repo has four modules and now want
 
 <SystemArchitectureDiagram />
 
-CUDA Kernel Academy is intentionally positioned between two extremes:
+cuda-foundations is intentionally positioned between two extremes:
 
 - **More structured than a folder of CUDA examples**: each module has a clear teaching purpose and a place in the larger system story.
 - **Lighter than a production framework**: abstractions are kept readable so the connection between optimization idea and code remains visible.

@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # Getting Started
 
-This document covers installation and build instructions for CUDA Kernel Academy.
+This document covers installation and build instructions for cuda-foundations.
 
 ## System Requirements
 

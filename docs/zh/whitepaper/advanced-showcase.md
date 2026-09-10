@@ -1,6 +1,6 @@
 # 高级技术展示
 
-本文档展示 CUDA Kernel Academy 中的前沿技术实现，包括 FlashAttention、CUDA 12/13 新特性、量化技术以及高级卷积算法。
+本文档展示 cuda-foundations 中的前沿技术实现，包括 FlashAttention、CUDA 12/13 新特性、量化技术以及高级卷积算法。
 
 ## FlashAttention 算法
 
@@ -450,7 +450,7 @@ __global__ void rope_kernel(
 
 ## 总结
 
-本文档展示了 CUDA Kernel Academy 中的前沿技术：
+本文档展示了 cuda-foundations 中的前沿技术：
 
 1. **FlashAttention**：O(N) 内存的注意力计算
 2. **TMA**：Hopper 异步内存传输

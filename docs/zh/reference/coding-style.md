@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 代码风格指南
 
-本文档定义 CUDA Kernel Academy 项目的代码风格和技术标准。
+本文档定义 cuda-foundations 项目的代码风格和技术标准。
 
 ## C++/CUDA 标准
 

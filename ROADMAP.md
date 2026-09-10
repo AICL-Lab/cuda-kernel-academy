@@ -1,7 +1,6 @@
-# CUDA Foundations 路线图
+# cuda-foundations 路线图
 
 > 仓库名：[`cuda-foundations`](https://github.com/open-infra-ai/cuda-foundations)
-> （教学品牌仍可用 CUDA Kernel Academy）。
 > 定位：五仓学习路径的 **CUDA 系统教学仓**，`phase-2-e` 面试就绪冻结。
 > 可执行的分步开发计划见 [DEV_PLAN.md](DEV_PLAN.md)。
 > 旗舰开发投入在 [tiny-llm](https://github.com/open-infra-ai/tiny-llm)（运行时）与

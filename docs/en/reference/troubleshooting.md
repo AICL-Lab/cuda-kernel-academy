@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # Troubleshooting
 
-Common issues and solutions for CUDA Kernel Academy.
+Common issues and solutions for cuda-foundations.
 
 ## Compilation Errors
 

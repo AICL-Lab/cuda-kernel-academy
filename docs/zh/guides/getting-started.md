@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 快速开始
 
-本文档给出 CUDA Kernel Academy 的安装与构建方式，帮助你快速上手。
+本文档给出 cuda-foundations 的安装与构建方式，帮助你快速上手。
 
 ## 系统要求
 

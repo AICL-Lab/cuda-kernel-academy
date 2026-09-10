@@ -1,6 +1,6 @@
 # Advanced Technology Showcase
 
-This document showcases cutting-edge technology implementations in CUDA Kernel Academy, including FlashAttention, CUDA 12/13 features, quantization techniques, and advanced convolution algorithms.
+This document showcases cutting-edge technology implementations in cuda-foundations, including FlashAttention, CUDA 12/13 features, quantization techniques, and advanced convolution algorithms.
 
 ## FlashAttention Algorithm
 
@@ -240,7 +240,7 @@ __global__ void rope_kernel(
 
 ## Summary
 
-This document showcases cutting-edge technologies in CUDA Kernel Academy:
+This document showcases cutting-edge technologies in cuda-foundations:
 
 1. **FlashAttention**: O(N) memory attention computation
 2. **TMA**: Hopper asynchronous memory transfer

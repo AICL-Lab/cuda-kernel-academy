@@ -1,6 +1,6 @@
 # 🎓 SGEMM Tutorial: From Naive to Tensor Core
 
-本模块是 CUDA Kernel Academy 的入门教程，聚焦于 SGEMM 的渐进式优化过程。
+本模块是 cuda-foundations 的入门教程，聚焦于 SGEMM 的渐进式优化过程。
 
 ## 内容概览
 

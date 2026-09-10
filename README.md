@@ -1,7 +1,6 @@
 # cuda-foundations
 
 > GitHub repository: [`cuda-foundations`](https://github.com/open-infra-ai/cuda-foundations)
-> Teaching brand: CUDA Kernel Academy
 >
 > 📚 Portfolio map: <https://github.com/open-infra-ai/open-infra-ai>
 
@@ -40,7 +39,7 @@
 
 ## Why this repo exists
 
-Most CUDA learning material is either too small to feel like engineering or too large to understand end to end. CUDA Kernel Academy sits in the middle:
+Most CUDA learning material is either too small to feel like engineering or too large to understand end to end. cuda-foundations sits in the middle:
 
 - **module 01** teaches the optimization ladder directly on SGEMM
 - **module 02** turns those ideas into a reusable kernel library shape
@@ -59,9 +58,9 @@ and `paged-serving`).
 
 ## Consolidation boundary
 
-CUDA Kernel Academy is the maintained successor for the overlapping learning paths that previously lived in `sgemm-optimization`, `modern-ai-kernels`, `hpc-ai-optimization-lab`, and `mini-inference-engine`. Useful implementations and verification now live in the matching Academy modules; the duplicate repositories have been retired instead of remaining as parallel maintenance surfaces.
+cuda-foundations is the maintained successor for the overlapping learning paths that previously lived in `sgemm-optimization`, `modern-ai-kernels`, `hpc-ai-optimization-lab`, and `mini-inference-engine`. Useful implementations and verification now live in the matching modules; the duplicate repositories have been retired instead of remaining as parallel maintenance surfaces.
 
-The former `llm-speed` GEMM learning path is covered here, while the maintained deep FlashAttention implementation lives in [`cuflash`](https://github.com/open-infra-ai/cuflash). The Academy intentionally keeps only one implementation per teaching role instead of importing every historical variant.
+The former `llm-speed` GEMM learning path is covered here, while the maintained deep FlashAttention implementation lives in [`cuflash`](https://github.com/open-infra-ai/cuflash). The repository intentionally keeps only one implementation per teaching role instead of importing every historical variant.
 
 ## Scope（IN / OUT）
 
@@ -160,8 +159,8 @@ make test
 
 ```text
 @misc{cuda-foundations,
-  author = {CUDA Kernel Academy Contributors},
-  title = {CUDA Kernel Academy},
+  author = {cuda-foundations Contributors},
+  title = {cuda-foundations},
   year = {2026},
   publisher = {GitHub},
   url = {https://github.com/open-infra-ai/cuda-foundations}

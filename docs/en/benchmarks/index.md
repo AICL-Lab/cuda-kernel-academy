@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # Benchmarks
 
-This page explains what benchmark evidence in CUDA Kernel Academy is meant to prove, and what it is not meant to prove.
+This page explains what benchmark evidence in cuda-foundations is meant to prove, and what it is not meant to prove.
 
 - **For kernel readers**: use it to connect optimization steps to measured deltas.
 - **For library and systems readers**: use it to see which claims are local kernel wins versus end-to-end integration signals.

@@ -3,8 +3,7 @@
     <div class="hero-content">
       <div class="hero-left">
         <h1 class="hero-title">
-          <span class="gradient-text">CUDA Kernel</span><br />
-          <span class="gradient-text">Academy</span>
+          <span class="gradient-text">cuda-foundations</span>
         </h1>
         <p class="hero-tagline">
           {{ tagline }}

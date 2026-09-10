@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 01-SGEMM Tutorial
 
-This module is the entry point of CUDA Kernel Academy, focusing on the progressive optimization of SGEMM.
+This module is the entry point of cuda-foundations, focusing on the progressive optimization of SGEMM.
 
 ## Learning Path
 

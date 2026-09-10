@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # Coding Style
 
-Code style and technical standards for CUDA Kernel Academy.
+Code style and technical standards for cuda-foundations.
 
 ## C++/CUDA Standards
 

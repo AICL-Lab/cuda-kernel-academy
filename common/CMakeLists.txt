@@ -54,7 +54,7 @@ install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 # Summary
 # ============================================================================
 message(STATUS "")
-message(STATUS "CUDA Academy Common Library Configuration:")
+message(STATUS "cuda-foundations Common Library Configuration:")
 message(STATUS "  C++ Standard:   ${CMAKE_CXX_STANDARD}")
 message(STATUS "  CUDA Archs:     ${CMAKE_CUDA_ARCHITECTURES}")
 message(STATUS "")
